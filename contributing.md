@@ -85,7 +85,9 @@ $ just dev
 
 The project will be available at `http://localhost:3003`.
 
-## Project Structure
+## Projects Structure
+
+### Web 
 
 It's divided into two main folders: `(web)`, and `(http_rest_api)`.
 
@@ -130,13 +132,20 @@ Example:
 │   │   │   │   ├── _utils
 │   │   │   │   ├── page.tsx
 ```
-
-### Libraries and Tools
+#### Libraries and Tools
 
 - [Next.js](https://nextjs.org/)
 - [Mantine](https://mantine.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [ESLint](https://eslint.org/)
+
+### Docs
+
+### Backend
+
+### Frontend
+
+### Bot
 
 ## Financial Contribution
 
