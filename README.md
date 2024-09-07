@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://twitter.com/opire_dev">
-    <img src="https://img.shields.io/badge/Rewarded%20by%20Opire 💚-white?style=flat&color=009387" alt="X (formerly Twitter)">
+  <a href="https://opire.dev">
+    <img src="https://img.shields.io/badge/Rewarded%20by%20Opire 💚-white?style=flat&color=009387" alt="Opire">
   </a>
 </p>
 
