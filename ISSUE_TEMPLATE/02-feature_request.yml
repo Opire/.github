@@ -1,0 +1,73 @@
+---
+name: 🛠️ Feature Request
+description: Create a new ticket for a new feature request.
+labels:
+  - "feature"
+assignees:
+  - "nabby27"
+body:
+  - type: checkboxes
+    attributes:
+      label: 🕵️‍♂️ Is there an existing feature request for this?
+      description: Please search to see if an issue already exists for the feature you're requesting.
+      options:
+      - label: I have searched the existing issues
+        required: true
+
+  - type: textarea
+    attributes:
+      label: 📝 Description
+      description: Provide a brief explanation of the feature
+      placeholder: The feature I'm requesting is...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🎯 What is the objective with this feature?
+      description: |
+        Describe the problem you're facing. What are you trying to accomplish? What is the expected outcome?
+      placeholder: I want to be able to...
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: 📌 Reference Issues
+      description: If there are any existing issues related to this feature, please list them here.
+      placeholder: "#27 #73..."
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: 🧩 Suggested Solution
+      description: |
+        Describe the solution you'd like. If you have considered alternatives, please describe them.
+      placeholder: To solve this problem, I suggest...
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: 💥 Drawbacks
+      description: What are the drawbacks/impacts of your feature request?
+      placeholder: This feature impacts on... and has the following drawbacks...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🎨 UI Design Proposal
+      description: |
+        If you have a ui design proposal, please add it here. Any visual representation of the feature is welcome (e.g. mockups, screenshots, figma...).
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: ❓ Unresolved questions
+      description: What questions still remain unresolved?
+      placeholder: I still have questions about...
+    validations:
+      required: false

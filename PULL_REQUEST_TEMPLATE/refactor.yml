@@ -1,0 +1,58 @@
+name: 🧹 Refactor
+description: Create a new pull request to refactor code.
+assignees:
+  - "nabby27"
+body:
+  - type: checkboxes
+    attibutes:
+      label: 📋 Required Checks
+      description: 
+      options:
+      - label: 👀 I Read the Contributing Guide
+        required: true
+      - label: ✅ The Test are Passing
+        required: true
+      - label: 💅 The Code is Linted
+        required: true
+      - label: 🗂️ The Code is Well Structured
+        required: true
+
+  - type: textarea
+    attributes:
+      label: 📝 Description of the Changes
+      description: A concise description of what this PR is about.
+      placeholder: |
+        This PR is about...
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: 📋 Optional Checks
+      description: Check the boxes that apply to this PR.
+      options:
+      - label: New Tests Added
+      - label: Documentation Updated
+      - label: Performance Improved 
+
+  - type: textarea
+    attributes:
+      label: 🚀 Post Deployment Actions
+      description: |
+        What are the next steps after this PR is merged? We have to update the documentation, notify the users, etc.
+      placeholder: |
+        After this PR is merged, we have to...
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: 🔍 Anything else?
+      description: |
+        Links? References? Anything that will give us more context about the PR you are submitting!
+        
+        If this PR changes the UI, please include a screenshot or a recording of the changes - both mobile and desktop views. This will help the reviewers understand the changes better.
+
+        Tip: You can attach images, screenshots, recordings or log files by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: false

@@ -1,0 +1,79 @@
+name: 🛠️ Feature Implementation
+description: Create a new pull request to implement a new feature.
+assignees:
+  - "nabby27"
+body:
+  - type: checkboxes
+    attributes:
+      label: 📋 Required Checks
+      description: 
+      options:
+      - label: 👀 I Read the Contributing Guide
+        required: true
+      - label: ✅ The Test are Passing
+        required: true
+      - label: 💅 The Code is Linted
+        required: true
+      - label: 🗂️ The Code is Well Structured
+        required: true
+
+  - type: textarea
+    attributes:
+      label: 📝 Description of the Changes
+      description: A concise description of what this PR is about.
+      placeholder: |
+        This PR is about...
+    validations:
+      required: true
+
+- type: checkboxes
+    attributes:
+      label: 📋 Optional Checks
+      description: Check the boxes that apply to this PR.
+      options:
+      - label: Affects the UI
+      - label: New Tests Added
+      - label: Documentation Updated
+      - label: Performance Improved 
+      - label: Has a Code Refactor
+      - label: Has a Breaking Change
+
+  - type: textarea
+    attributes:
+      label: 📌 Reference Issues
+      description: If there are any existing issues related to this PR, please list them here.
+      placeholder: "#27 #73..."
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: ⚙️ Pre Deployment Actions
+      description: |
+        What are the steps to be taken before this PR is merged? We have to create a new key, update the environment variables, etc.
+      placeholder: |
+        Before this PR is merged, we have to...
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: 🚀 Post Deployment Actions
+      description: |
+        What are the next steps after this PR is merged? We have to update the documentation, notify the users, etc.
+      placeholder: |
+        After this PR is merged, we have to...
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: 🔍 Anything else?
+      description: |
+        Links? References? Anything that will give us more context about the PR you are submitting!
+        
+        If this PR changes the UI, please include a screenshot or a recording of the changes - both mobile and desktop views. This will help the reviewers understand the changes better.
+
+        Tip: You can attach images, screenshots, recordings or log files by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: false
