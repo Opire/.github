@@ -2,7 +2,7 @@
 
 Hi! We are really excited that you are interested in contributing to Opire. Before submitting your contribution, please make sure to take a moment and read through the following guidelines:
 
-- [Code of Conduct](https://github.com/opire/.github/blob/main/code_of_conduct.md)
+- [Code of Conduct](https://github.com/opire/.github/blob/main/CODE_OF_CONDUCT.md)
 - [Issue Reporting Guidelines](#issue-reporting-guidelines)
 - [Pull Request Guidelines](#pull-request-guidelines)
 - [Development Setup](#development-setup)
@@ -22,7 +22,7 @@ The various issue templates are designed to guide you in providing the necessary
 
 ### Reporting Security Vulnerabilities Issues
 
-If you discover a security vulnerability, please follow our [Security Policy](https://github.com/opire/.github/blob/main/security.md) and report it to us sending an email to [team@opire.dev](mailto:team@opire.dev). We take security vulnerabilities seriously and will respond quickly to your report.
+If you discover a security vulnerability, please follow our [Security Policy](https://github.com/opire/.github/blob/main/SECURITY.md) and report it to us sending an email to [team@opire.dev](mailto:team@opire.dev). We take security vulnerabilities seriously and will respond quickly to your report.
 
 ## Pull Request Guidelines
 

@@ -62,7 +62,7 @@ For questions, discussions and support please use our [discord](https://discord.
 
 ## 🤝 Contribution
 
-Please make sure to read the [Contributing Guide](https://github.com/opire/.github/blob/main/contributing.md) before making a pull request in any of our repositories.
+Please make sure to read the [Contributing Guide](https://github.com/opire/.github/blob/main/CONTRIBUTING.md) before making a pull request in any of our repositories.
 
 Thank you to all the people who already contributed to Opire!
 
