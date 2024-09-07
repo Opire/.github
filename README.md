@@ -74,7 +74,7 @@ Thank you to all the people who already contributed to Opire!
 
 ### In our docs
 
-<a href="https://github.com/opire/web/graphs/contributors">
+<a href="https://github.com/opire/docs/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=opire/docs" alt="Contributors"/>
 </a>
 
