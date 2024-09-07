@@ -44,6 +44,8 @@ When using Opire to offer bounties on external repositories, it's essential to a
 
 - **Do Not Pressure to Accept Pull Requests**: Maintainers of a project should not be pressured to accept Pull Requests resulting from bounties placed through Opire. All contributions should be evaluated and accepted or rejected based on technical merit and project needs, without any undue influence. Insisting on accepting Pull Requests may result in disciplinary action, including the possibility of a temporary or permanent ban from the Opire platform.
 
+- **Pull Request Quality**: If you are developing a Pull Request to earn a reward, please ensure that it's complete, well-crafted, and useful for the project. Opire's goal is to improve open source, not to promote quick fixes that are not of quality. You should not submit Pull Requests in a rush just to get the reward. Pull Requests that are deemed fraudulent or do not meet the expected quality standards will be treated as scams, which may result in a ban from the Opire platform.
+
 Failure to follow these guidelines may lead to penalties, ranging from a warning to a ban from our community and platform, depending on the severity of the violation.
 
 These guidelines are designed to foster a collaborative, healthy, and respectful environment within the software development community. Our goal is to create a community that actively contributes to improving the open-source world by promoting ethical and responsible practices that benefit everyone involved.
