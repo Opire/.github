@@ -6,8 +6,6 @@ Hi! We are really excited that you are interested in contributing to Opire. Befo
 - [Issue Reporting Guidelines](#issue-reporting-guidelines)
 - [Pull Request Guidelines](#pull-request-guidelines)
 - [Development Setup](#development-setup)
-- [Project Structure](#project-structure)
-- [Contributing Tests](#contributing-tests)
 - [Financial Contribution](#financial-contribution) 
 
 ## Issue Reporting Guidelines
@@ -84,68 +82,6 @@ $ just dev
 ```
 
 The project will be available at `http://localhost:3003`.
-
-## Projects Structure
-
-### Web 
-
-It's divided into two main folders: `(web)`, and `(http_rest_api)`.
-
-Inside `(web)` you will find the frontend side of the project. This project is built with Next.js and Mantine.
-
-The `(http_rest_api)` folder contains all the routes and controllers for the REST API.
-
-Our guidelines inside `(web)` are:
-- We use private folders for each folder that is not a route page (private folders are folders that start with `_`). For example, `_components`, `_hooks`, `_utils`, `_shared`, etc.
-- Every piece of code (components, hooks, functions...) are the most near to the pages/components that use them.
-- If the piece of code is used in multiple pages, it should be in the `_shared/` folder.
-- The components are inside the `_components` folder.
-
-Example:
-
-```
-.
-├── src
-│   ├── app
-│   │   ├── (http_rest_api)
-│   │   │   ├── api
-│   │   │   │   ├── rewards
-│   │   │   │   │   ├── _GetRewardsController.ts
-│   │   │   │   │   ├── route.ts
-│   │   ├── (web)
-│   │   │   ├── _shared
-│   │   │   │   ├── _components
-│   │   │   │   │   │   ├── Button
-│   │   │   │   │   ├── Input
-│   │   │   │   ├── _hooks
-│   │   │   │   ├── _utils
-│   │   │   ├── blog
-│   │   │   │   ├── _components
-│   │   │   │   │   ├── Post
-│   │   │   │   ├── _hooks
-│   │   │   │   ├── _utils
-│   │   │   │   ├── page.tsx
-│   │   │   ├── home
-│   │   │   │   ├── _components
-│   │   │   │   │   ├── SectionA
-│   │   │   │   ├── _hooks
-│   │   │   │   ├── _utils
-│   │   │   │   ├── page.tsx
-```
-#### Libraries and Tools
-
-- [Next.js](https://nextjs.org/)
-- [Mantine](https://mantine.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [ESLint](https://eslint.org/)
-
-### Docs
-
-### Backend
-
-### Frontend
-
-### Bot
 
 ## Financial Contribution
 
