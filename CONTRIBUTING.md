@@ -81,8 +81,6 @@ And start the development server:
 $ just dev
 ```
 
-The project will be available at `http://localhost:3003`.
-
 ## Financial Contribution
 
 We appreciate any financial contributions through our [Ko-fi](https://ko-fi.com/opire), but we strongly encourage you to invest in open-source project issues using Opire instead. It's the most impactful way to support us and the community. Let's make open source sustainable together! 🤟 
